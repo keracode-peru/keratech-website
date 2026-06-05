@@ -22,7 +22,7 @@ const { title, role, description, image, url }: ITeamCardProps = Astro.props as 
         <p class="text-lg">{role}</p>
       </div>
       <div class="h-full flex-1">
-        <a href={url} target="_blank" rel="noopener noreferrer" arial-label=`Ver el perfil de trabajo de ${title}` class="w-[34px] min-w-[34px] h-[34px] min-h-[34px] flex">
+        <a href={url} target="_blank" rel="noopener noreferrer" aria-label=`Ver el perfil de trabajo de ${title}` class="w-[34px] min-w-[34px] h-[34px] min-h-[34px] flex">
           <Image src={LinkedinCardIcon} alt={description} width="34" height="34" class="cursor-pointer" />
         </a>
       </div>
