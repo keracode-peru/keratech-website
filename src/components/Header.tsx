@@ -17,7 +17,7 @@ const Header = () => {
               <a
                 href="/#services"
                 className="cursor-pointer hover:underline"
-                arial-label="Mira nuestros servicios aquí"
+                aria-label="Mira nuestros servicios aquí"
               >
                 <span className="cursor-pointer">Servicios</span>
               </a>
@@ -26,7 +26,7 @@ const Header = () => {
               <a
                 href="/#products"
                 className="cursor-pointer hover:underline"
-                arial-label="Mira nuestros productos aquí"
+                aria-label="Mira nuestros productos aquí"
               >
                 <span className="cursor-pointer">Productos</span>
               </a>
@@ -35,13 +35,13 @@ const Header = () => {
               <a
                 href="/#about"
                 className="cursor-pointer hover:underline"
-                arial-label="Mira más acerca de nosotros aquí"
+                aria-label="Mira más acerca de nosotros aquí"
               >
                 <span className="cursor-pointer">Nosotros</span>
               </a>
             </li>
             <li>
-              <a href="/#contact" arial-label="Contáctanos aquí">
+              <a href="/#contact" aria-label="Contáctanos aquí">
                 <Button text="Contáctanos" variant="outline" />
               </a>
             </li>
@@ -72,7 +72,7 @@ const Header = () => {
               <a
                 href="/#services"
                 className="h-full w-full flex items-center justify-center"
-                arial-label="Mira nuestros servicios aquí"
+                aria-label="Mira nuestros servicios aquí"
               >
                 <span className="cursor-pointer">Servicios</span>
               </a>
@@ -81,7 +81,7 @@ const Header = () => {
               <a
                 href="/#products"
                 className="h-full w-full flex items-center justify-center"
-                arial-label="Mira nuestros productos aquí"
+                aria-label="Mira nuestros productos aquí"
               >
                 <span className="cursor-pointer">Productos</span>
               </a>
@@ -90,7 +90,7 @@ const Header = () => {
               <a
                 href="/#about"
                 className="h-full w-full flex items-center justify-center"
-                arial-label="Mira más acerca de nosotros aquí"
+                aria-label="Mira más acerca de nosotros aquí"
               >
                 <span className="cursor-pointer">Nosotros</span>
               </a>
@@ -99,7 +99,7 @@ const Header = () => {
               <a
                 href="/#contact"
                 className="h-full w-full flex items-center justify-center"
-                arial-label="Contáctanos aquí"
+                aria-label="Contáctanos aquí"
               >
                 <span className="cursor-pointer">Contáctanos</span>
               </a>

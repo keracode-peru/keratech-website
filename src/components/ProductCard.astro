@@ -54,12 +54,12 @@ const cardTextColor = {
     <div class="w-full md:w-1/2 flex flex-col justify-between gap-8">
       <h3 class=`${cardTitleColor[color]} w-fit text-[26px] md:text-3xl font-medium px-2 py-1 rounded-lg whitespace-nowrap`>{title}</h3>
       <div class="flex items-end md:items-center justify-between md:justify-start gap-4">
-        <a href={url} target="_blank" rel="noopener noreferrer" arial-label="Ver más información del producto">
+        <a href={url} target="_blank" rel="noopener noreferrer" aria-label="Ver más información del producto">
           <span class=`${cardIconColor[color]} w-10 h-10 flex items-center justify-center rounded-full`>
             <Image src={cardArrowColor[color]} alt="Ver más información del producto" width="20" height="20" />
           </span>
         </a>
-        <a href={url} target="_blank" rel="noopener noreferrer" arial-label="Ver más información del producto">
+        <a href={url} target="_blank" rel="noopener noreferrer" aria-label="Ver más información del producto">
           <p class=`${cardTextColor[color]} hidden md:block whitespace-nowrap cursor-pointer hover:underline`>Ver más</p>
         </a>
         <Image src={image} class="block md:hidden" alt={description} width="140" height="120" />
